@@ -5,12 +5,10 @@ RunzCord
 
 <p align="center">
     <a href="https://discord.gg/runz"><img src="https://img.shields.io/discord/808030843078836254?style=flat-square&color=5865f2&logo=discord&logoColor=ffffff&label=discord" alt="Discord server invite" /></a>
-    <a href="https://pypi.python.org/pypi/disnake"><img src="https://img.shields.io/pypi/v/disnake.svg?style=flat-square" alt="PyPI version info" /></a>
-    <a href="https://pypi.python.org/pypi/disnake"><img src="https://img.shields.io/pypi/pyversions/disnake.svg?style=flat-square" alt="PyPI supported Python versions" /></a>
-    <a href="https://github.com/DisnakeDev/disnake/commits"><img src="https://img.shields.io/github/commit-activity/w/DisnakeDev/disnake.svg?style=flat-square" alt="Commit activity" /></a>
+    
 </p>
 
-A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
+A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.Inspired From Disnake.
 
 Key Features
 ------------
@@ -25,7 +23,7 @@ Installing
 ----------
 
 **Python 3.8 or higher is required.**
-
+**NOTE: This package is not released globally , So U need to install using the command :- ```pip install git+https://github.com/Client13/runzcord```
 To install the library without full voice support, you can just run the
 following command:
 
@@ -37,7 +35,7 @@ python3 -m pip install -U runzcord
 py -3 -m pip install -U runzcord
 ```
 
-Installing `runzcord` with full voice support requires you to replace `runzcord` here, with `runzcord[voice]`. To learn more about voice support (or installing the development version), please visit [this section of our guide](https://guide.disnake.dev/prerequisites/installing-disnake/).
+Installing `runzcord` with full voice support requires you to replace `runzcord` here, with `runzcord[voice]`.
 
 (You can optionally install [PyNaCl](https://pypi.org/project/PyNaCl/) for voice support.)
 
@@ -45,8 +43,7 @@ Note that voice support on Linux requires installation of `libffi-dev` and `pyth
 
 Versioning
 ----------
-
-This project does **not** quite follow semantic versioning; for more details, see [version guarantees](https://docs.disnake.dev/en/latest/version_guarantees.html).
+CURRENT VERSION 2.0.0.
 
 To be on the safe side and avoid unexpected breaking changes, pin the dependency to a minor version (e.g. `runzcord==a.b.*` or `runzcord~=a.b.c`) or an exact version (e.g. `runzcord==a.b.c`).
 
@@ -100,15 +97,17 @@ async def ping(ctx):
 bot.run("BOT_TOKEN")
 ```
 
-You can find more examples in the [examples directory](./examples).
+
 
 <br>
+Untill The Docs Are Released , Docs Of Disnake May Be Followed.
+======
 <p align="center">
     <a href="https://docs.disnake.dev/">Documentation</a>
     ⁕
     <a href="https://guide.disnake.dev/">Guide</a>
     ⁕
-    <a href="https://discord.gg/disnake">Discord Server</a>
+    <a href="https://discord.gg/runz">Discord Server</a>
     ⁕
     <a href="https://discord.gg/discord-developers">Discord Developers</a>
 </p>
